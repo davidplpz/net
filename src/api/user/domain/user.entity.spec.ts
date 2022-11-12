@@ -1,5 +1,5 @@
-import { InvalidEmailExcetpion } from "../../shared/domain/exceptions/invalid-email.exception";
-import { Email } from "../../shared/value-objects/email.value-object";
+import { InvalidEmailExcetpion } from "../../../shared/domain/exceptions/invalid-email.exception";
+import { Email } from "../../../shared/value-objects/email.value-object";
 import { User } from "./user.entity"
 
 describe('User entity', () => {
