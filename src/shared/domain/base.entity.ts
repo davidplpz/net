@@ -1,8 +1,8 @@
 export class BaseEntity {
-    private id: string;
+    private id: String;
     private createdAt: Date;
 
-    constructor(id: string) {
+    constructor(id: String) {
         this.id = id;
         this.createdAt = new Date();
     }
